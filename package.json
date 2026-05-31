@@ -1,0 +1,19 @@
+{
+  "name": "falcondb",
+  "version": "1.0.0",
+  "description": "falconDB — Distributed Key-Value Database",
+  "main": "app/src/rp/server.js",
+  "scripts": {
+    "start:rp": "node app/src/rp/server.js",
+    "start:dn": "node app/src/dn/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "winston": "^3.11.0",
+    "axios": "^1.6.2",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {},
+  "keywords": ["distributed", "key-value", "raft", "two-phase-commit"],
+  "license": "ISC"
+}
